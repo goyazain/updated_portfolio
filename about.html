@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About</title>
+  <script src="https://kit.fontawesome.com/572e24cddf.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+</head>
+<style>
+  * {
+    margin: 0;
+    padding: 0;
+
+  }
+
+  body {
+    background-image: url('');
+    background-size: cover;
+    background-position: center;
+  }
+
+  header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  height: 40px;
+  margin-right: 10px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.2s ease-in-out;
+}
+
+nav a:hover {
+  color: #ccc;
+}
+
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .logo {
+    margin-bottom: 10px;
+  }
+
+  nav {
+    margin-top: 10px;
+  }
+
+  nav li {
+    margin-right: 10px;
+  }
+}
+
+.hero {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  height: 80vh;
+  background-color: #fff;
+  color: #000;
+  padding: 15px;
+}
+
+.hero-content {
+  flex-basis: 50%;
+  padding: 3rem;
+  text-align: center;
+}
+
+.hero-content h1 {
+  font-size: 4rem;
+  margin-bottom: 2rem;
+}
+
+.hero-content p {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.hero-image {
+  flex-basis: 50%;
+  height: 100%;
+}
+
+.hero-image img {
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+@media (max-width: 768px) {
+  .hero {
+    height: auto;
+    padding: 0;
+  }
+
+  .hero-content {
+    flex-basis: 100%;
+    padding: 2rem;
+  }
+
+  .hero-image {
+    flex-basis: 100%;
+    height: 50vh;
+  }
+
+  .hero-image img {
+    height: 100%;
+  }
+}
+
+
+  .footer {
+    background-color: #f8f8f8;
+    padding: 30px 10px;
+    text-align: center;
+  }
+
+  .footer h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+
+  .footer .social-media li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+
+  .footer .social-media a {
+    color: #666;
+    font-size: 24px;
+    transition: all 0.3s ease;
+  }
+
+  .footer .social-media a:hover {
+    color: #111;
+  }
+
+  .footer p {
+    color: #666;
+    font-size: 14px;
+    margin-top: 20px;
+  }
+
+  .footer a {
+    color: #666;
+    transition: all 0.3s ease;
+  }
+
+  .footer a:hover {
+    color: #111;
+  }
+</style>
+
+<body>
+  <header>
+    <div class="logo">
+      <img src="logo-removebg-preview.png" alt="Logo">
+      <h1>ZAIN UL ABIDEEN</h1>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="hero-content">
+      <h1 style="padding-top: 1.5rem;">About Me</h1>
+      <p>I am Zain Ul Abideen from Balochistan, I'm a full stack web developer. Having 3+ years of experience.
+        I am 17.5 years old. My qualification is Inter-I. <br>
+      
+        My vision is eradication of illiteracy through quality education which can be possible. We can eradicate the
+        poverty through Education and knowledge. Let's come to do a good deed, oneday we'll no more but due to our good
+        deeds the world and people will remember us.
+      </p>
+    </div>
+    <div class="hero-image">
+      <img
+        src="https://scontent.fkhi3-1.fna.fbcdn.net/v/t1.6435-9/137328094_1060518611118154_3987872936196190902_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=8bfeb9&_nc_eui2=AeE3r71G77LAtJ9MaxoWwC5RswS8YMg4R9SzBLxgyDhH1OrqUrRj7cmyLm2RzZ8xwWcLLgCGFSKO1iGnqHU4AdaT&_nc_ohc=GF7B_fclL50AX9s5tk3&_nc_ht=scontent.fkhi3-1.fna&oh=00_AfADScysYqb5t0bH9CA_N5OCw5C3ZDOOSZrSLDP6BtFtiQ&oe=646FEC40"
+        alt="About Hero Image">
+    </div>
+  </section>
+
+
+
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <h3 style="color: #000; margin-top: 5rem;">Connect With Me</h3>
+          <ul class="social-media">
+            <li><a href="https://www.facebook.com/zainulabideen.goya.3"><i class="fab fa-facebook-f"></i></a></li>
+            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="https://www.linkedin.com/in/zain-ul-abideen-goya-8a7935257"><i
+                  class="fab fa-linkedin-in"></i></a></li>
+                  <li><a href="mailto:zaingoya65@gmail.com"><i
+                    class="fa fa-message"></i></a></li>
+          </ul>
+          <p>Copyright © 2023
+            <a href="contact">ZK Goya</a>. All rights reserved.
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+</body>
+
+</html>
